@@ -61,9 +61,9 @@ for i in range(epoch):
     dw1 = np.dot(x1.T,dz1)
     w1 = m*w1 - lr*dw1
     w2 = m*w2 - lr*dw2
-    pred=np.argmax(yhat,axis=1)
-    act=np.argmax(y1,axis=1)
-    acc = sum(act==pred)/batch_size
+    pred = np.argmax(yhat,axis=1)
+    act = np.argmax(y1,axis=1)
+    acc =  sum(act==pred)/batch_size
     print('data_loss: ',data_loss,'    acc: ',acc)
 ############
 print('Done')
