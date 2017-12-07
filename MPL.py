@@ -1,4 +1,7 @@
-# this example is revised from cs231n.github.io/neural-networks-case-study 
+# this example is mainly revised from cs231n.github.io/neural-networks-case-study 
+# December 2017 by Shuming Fang. 
+# fangshuming519@gmail.com.
+# https://github.com/FonzieTree
 import numpy as np
 N = 100 # number of points per class
 D = 2 # dimensionality
