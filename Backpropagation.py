@@ -1,4 +1,7 @@
 # This is a toy example of conducting backpropagation
+# December 2017 by Shuming Fang. 
+# fangshuming519@gmail.com.
+# https://github.com/FonzieTree
 from __future__ import division, print_function, absolute_import
 import numpy as np
 N = 100 # number of points per class
