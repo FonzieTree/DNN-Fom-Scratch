@@ -2,6 +2,7 @@
 # fangshuming519@gmail.com.
 # https://github.com/FonzieTree
 import numpy as np
+import matplotlib.pyplot as plt
 N = 100 # number of points per class
 D = 2 # dimensionality
 K = 3 # number of classes
@@ -14,6 +15,8 @@ for j in range(K):
   t = np.linspace(j*4,(j+1)*4,N) + np.random.randn(N)*0.2 # theta
   X[ix] = np.c_[r*np.sin(t), r*np.cos(t)]
   y[ix] = j
+plt.scatter(X[:, 0], X[:, 1], c=y, s=40, cmap=plt.cm.Spectral)
+plt.show()
 # initialize parameters randomly
 h1 = 100 # size of hidden layer
 h2 = 100
