@@ -1,5 +1,6 @@
 # this example is mainly revised from cs231n.github.io/neural-networks-case-study 
 # https://github.com/FonzieTree
+# fangshuming519@gmail.com
 import numpy as np
 N = 100 # number of points per class
 D = 2 # dimensionality
