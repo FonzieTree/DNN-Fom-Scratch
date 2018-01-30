@@ -1,4 +1,5 @@
 # https://github.com/FonzieTree
+# fangshuming519@gmail.com
 import numpy as np
 import matplotlib.pyplot as plt
 N = 100 # number of points per class
